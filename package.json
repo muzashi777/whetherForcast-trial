@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "heroku-postbuild": "babel server.js -d ./dist -s",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
